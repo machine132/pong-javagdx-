@@ -9,7 +9,9 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 public class MainClass extends ApplicationAdapter {
 	SpriteBatch batch;
 	Texture img;
-	
+
+	int a;
+
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
